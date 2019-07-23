@@ -1,0 +1,72 @@
+<!-- JS begin -->
+
+<!-- jQuery  -->
+<script src="js/jquery-1.11.2.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- MAGNIFIC POPUP -->
+<script src='js/jquery.magnific-popup.min.js'></script>
+
+<!-- PORTFOLIO SCRIPTS -->
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+
+<!-- COUNTER -->
+<script src="js/jquery.countTo.js"></script>
+
+<!-- APPEAR -->
+<script src="js/jquery.appear.js"></script>
+
+<!-- GOOLE MAP -->
+<script src="https://maps.google.com/maps/api/js?key=INSERT-YOUR-API-KEY-HERE"></script>
+<script src="js/gmap3.min.js"></script>
+
+<!--[if lt IE 10]><script src="js/jquery.placeholder.js"></script><![endif]-->
+
+<!-- FORMS VALIDATION	-->
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/contact-form-validation.min.js"></script>
+
+<!-- OWL CAROUSEL -->
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- ONE PAGE NAV -->
+<script src="js/jquery.nav.js"></script>
+<script>
+    $(document).ready(function() {
+        //ONE PAGE NAV	---------------------------------------------------------------------------
+        var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+        $('#nav-onepage').onePageNav({
+            currentClass: 'current',
+            changeHash: false,
+            scrollSpeed: 700,
+            scrollOffset: top_offset,
+            scrollThreshold: 0.5,
+            filter: '',
+            easing: 'swing',
+            begin: function() {
+                //I get fired when the animation is starting
+            },
+            end: function() {
+                //I get fired when the animation is ending
+            },
+            scrollChange: function($currentListItem) {
+                //I get fired when you enter a section and I pass the list item of the section
+            }
+        });
+
+    });//END document.ready
+</script>
+
+<!-- MAIN SCRIPT -->
+<script src="js/main.js"></script>
+
+<!-- FLEX SLIDER SCRIPTS  -->
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/flex-slider.js"></script>
+
+<!-- JS end -->
