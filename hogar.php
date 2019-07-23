@@ -269,6 +269,7 @@
 
         </div>
     </div>
+    <hr class="mt-0 mb-0">
     <!-- VIDEO ADS 1 -->
 	<?php include("./php/cotizar_auto.php"); ?>
     <!-- FOOTER 2 -->

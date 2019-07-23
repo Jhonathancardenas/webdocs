@@ -3048,7 +3048,6 @@ label.error {
   font-weight:normal;
   font-size:11px;
   color:#e42c3e;
-  position: absolute;
   top: 5px;
   right: 15px;
   /* visibility:hidden !important;
