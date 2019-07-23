@@ -266,131 +266,51 @@
               </div>
             </div>
           </div>
-        </div>        
         </div>
+</div>
 
-
-
-
-
-
-
-        
-        <!-- DIVIDER -->
-        <hr class="mt-0 mb-0">  
-        
-        <!-- CLIENTS 1 & TESTIMONIALS 1 -->
-        <div class="page-section p-110-cont">
-          <div class="container">
-            <div class="row">
-            
-              <div class="col-md-12">
+<!-- DIVIDER -->
+<hr class="mt-0 mb-0">
+<!-- CLIENTS 1 & TESTIMONIALS 1 -->
+<div class="page-section p-110-cont">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="mb-50">
-                  <h2 class="section-title">Nuestras <span class="bold">Aseguradoras</span></h2>
+                    <h2 class="section-title">Nuestras <span class="bold">Aseguradoras</span></h2>
                 </div>
-              </div>
-              
             </div>
-
-            <h4 class="mb-30"></h4>  
-          <div class="row mb-30" >
+        </div>
+        <h4 class="mb-30"></h4>
+        <div class="row mb-30" >
             <div class="owl-clients-auto owl-carousel" >
-              <div class="item text-center"><img src="images/clients/1.png" alt="client"></div>
-              <div class="item text-center"><img src="images/clients/2.png" alt="client"></div>
-              <div class="item text-center"><img src="images/clients/3.png" alt="client"></div>
-              <div class="item text-center"><img src="images/clients/4.png" alt="client"></div>
-              <div class="item text-center"><img src="images/clients/5.png" alt="client"></div>
-              <div class="item text-center"><img src="images/clients/6.png" alt="client"></div>
-              <div class="item text-center"><img src="images/clients/7.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/1.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/2.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/3.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/4.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/5.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/6.png" alt="client"></div>
+                <div class="item text-center"><img src="images/clients/7.png" alt="client"></div>
             </div>
-          </div>
-            
-                  
-                    
+        </div>
+    </div>
+</div>
+<!-- VIDEO ADS 1 -->
+<div class="page-section video-ads-bg" >
+  <div class="container" href="autos.html">
+    <div class="video-ads-text-cont clearfix"href="autos.html">
+      <span class="video-ads-text">COTIZA TU AUTO AQUÍ</span>
+        <a class="" href="autos.php">
+          <span class="icon icon-music-play-button"></span>
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
 
-                </div>
-                
-              </div>
-
-              <!-- VIDEO ADS 1 -->
-        <div class="page-section video-ads-bg" >
-          <div class="container" href="autos.html">
-            <div class="video-ads-text-cont clearfix"href="autos.html">
-              <span class="video-ads-text">COTIZA TU AUTO AQUÍ</span>
-
-              
-                <a class="" href="autos.php">
-                  <span class="icon icon-music-play-button"></span>
-                  
-                </a>
-              </span>
-              
-            </div>
-          </div>
-        </div>  
-
-
-              
-              
-            
-        
-
-        <!-- FOOTER 2 -->
-        <!-- FOOTER 2 -->
-        <footer id="footer2" class="page-section pt-80 pb-50">
-        <!-- CONTACT INFO SECTION 1 -->
-        <div id="contact-link"  class="page-section p-110-cont">
-          <div class="container">
-            <div class="row">
-            
-              <div class="col-md-4 col-sm-6">
-                <div class="cis-cont">
-                  <div class="cis-icon">
-                    <div class="icon icon-basic-map"></div>
-                  </div>
-                  <div class="cis-text">
-                    <h2><span class="bold">DIRECCIÓN</span></h2>
-                    <h3>AV 19 N 125- 65 OFICINA 301 EDIFICIO AV 19</h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="cis-cont">
-                  <div class="cis-icon">
-                    <div class="icon icon-basic-mail"></div>
-                  </div>
-                  <div class="cis-text">
-                    <h2><span class="bold">EMAIL</span></h2>
-                    <h3><a href="mailto:rafael.perez@ageso.com">RAFAEL.PEREZ@AGESO.COM.CO</a></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="cis-cont">
-                  <div class="cis-icon">
-                    <div class="icon icon-basic-smartphone"></div>
-                  </div>
-                  <div class="cis-text">
-                    <h2><span class="bold">LLÁMANOS</span></h2>
-                    <h3>313 831 13 65, 031 703 62 55</h3>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>        
-        </div>  
-        </footer>
-      
-        
-        <!-- BACK TO TOP -->
-        <p id="back-top">
-          <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
-        </p>
-        
+<?php include("./php/footer2.php");?>
       </div><!-- End BG --> 
     </div><!-- End wrap -->
 		<?php include("./php/footer.php");?>
-	
 	</body>
 </html>		
