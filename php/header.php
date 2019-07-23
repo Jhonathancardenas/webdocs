@@ -1,24 +1,27 @@
 <header id="nav" class="header header-1">
 	<div class="header-wrapper">
-		<div class="container-m-30 clearfix">
-			<div class="logo-row">
-				<!-- LOGO -->
-				<div class="logo-container-2">
-					<div class="logo-2">
-						<a href="index.html" class="clearfix">
-							<img src="images/logo.png" class="logo-img" alt="Logo">
-						</a>
-					</div>
-				</div>
-				<!-- BUTTON -->
-				<div class="menu-btn-respons-container">
-					<button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
-						<span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
-					</button>
-				</div>
-			</div>
-		</div>
-		<!-- MAIN MENU CONTAINER -->
+        <div class="container-m-30 clearfix">
+            <div class="logo-row">
+
+                <!-- LOGO -->
+                <div class="logo-container-2">
+                    <div class="logo-2">
+                        <a href="index.html" class="clearfix">
+                            <img src="images/logo.png" class="logo-img" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <!-- BUTTON -->
+                <div class="menu-btn-respons-container">
+                    <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse"
+                            data-target="#main-menu .navbar-collapse">
+                        <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN MENU CONTAINER -->
 		<div class="main-menu-container">
 			<div class="container-m-30 clearfix">
 				<!-- MAIN MENU -->
@@ -28,32 +31,21 @@
 						<nav class="collapse collapsing navbar-collapse right-1024">
 							<ul class="nav navbar-nav">
 								<!-- MENU ITEM -->
-								<li class="parent current">
+								<li>
 									<a href="index.php"><div class="main-menu-title">HOME</div></a>
 								</li>
 								<!-- MENU ITEM -->
 								<li class="parent">
-									<a href="#"><div class="main-menu-title">PRODUCTOS</div></a>
+                                        <a href="#"><div class="main-menu-title">PRODUCTOS</div></a>
 									<ul class="sub">
-										<li class="parent">
-										</li>
 										<li><a href="autos.php">AUTOS</a></li>
-										<li class="parent">
 										<li><a href="hogar.php">HOGAR</a></li>
-										<li class="parent">
-
 										<li><a href="vida.php">VIDA</a></li>
-										<li class="parent">
-
 										<li><a href="pyme.php">PYME</a></li>
-										<li class="parent">
-
 										<li><a href="otros.php">OTROS</a></li>
-										<li class="parent">
-										</li>
 									</ul>
 								</li>
-								<li class="parent">
+								<li>
 									<a href="soat.php"><div class="main-menu-title">SOAT</div></a>
 								</li>
 								<!-- MENU ITEM -->
@@ -62,6 +54,7 @@
 									<ul class="sub">
 										<li class="clearfix" >
 											<div class="menu-sub-container">
+
 												<div class="box col-md-3 menu-demo-info closed">
 													<h5 class="title">CONTACTÁNOS</h5>
 													<ul>
@@ -116,3 +109,4 @@
 	</div>
 	<!-- END header-wrapper -->
 </header>
+
