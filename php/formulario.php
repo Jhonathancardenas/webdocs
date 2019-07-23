@@ -1,7 +1,7 @@
 <div class="clear"></div>
 <form id="contact-form" action="" method="POST">
 <div class="page-section gray-bg">
-    <div class="container-fluid">
+    <div class="container">
         <div class="col-md-12">
             <div class="mb-40">
                 <h2 class="section-title">COTIZA <span class="bold">AQUÍ</span></h2>
@@ -20,7 +20,7 @@
 
             <div class="form-group mb-30">
                 <!-- <label>Your email address *</label> -->
-                <input type="email" value="" data-msg-required="Escribe tu numero de celular" data-msg-email="Escribe tu numero de celular" maxlength="100" class="controled" name="celular" id="celular" placeholder="Celular" required>
+                <input type="number" value="" data-msg-required="Escribe tu numero de celular" data-msg-email="Escribe tu numero de celular" maxlength="100" class="controled" name="celular" id="celular" placeholder="Celular" required>
             </div>
 
             <div class="form-group mb-30">
@@ -71,11 +71,6 @@
 <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
     <strong>Exitoso!</strong> Pronto nos comunicaremos contigo!.
 </div>
-
-<div class="alert alert-danger hidden animated shake" id="contactError">
-    <strong>Error!</strong> Existe un error en tu mensaje.
-</div>
-
 </form>
 <script>
     $('#contact-form').submit(function(e){
