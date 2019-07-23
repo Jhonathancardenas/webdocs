@@ -21,7 +21,7 @@
 <script src="js/jquery.appear.js"></script>
 
 <!-- GOOLE MAP -->
-<script src="https://maps.google.com/maps/api/js?key=INSERT-YOUR-API-KEY-HERE"></script>
+
 <script src="js/gmap3.min.js"></script>
 
 <!--[if lt IE 10]><script src="js/jquery.placeholder.js"></script><![endif]-->
@@ -39,7 +39,12 @@
     $(document).ready(function() {
         //ONE PAGE NAV	---------------------------------------------------------------------------
         var top_offset = $('header').height() - 1;  // get height of fixed navbar
-
+        $( "#float" ).mouseover(function(e) {
+        $(this).css("right","-1px");
+        });
+        $("#float").mouseleave( function(){
+        $(this).css("right","-181px");
+        });
         $('#nav-onepage').onePageNav({
             currentClass: 'current',
             changeHash: false,

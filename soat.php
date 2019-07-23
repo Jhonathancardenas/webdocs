@@ -189,9 +189,67 @@
         <div class="fullwidth-slider owl-carousel owl-arrows-bg owl-dark-bg owl-pag-2">
             <!-- ITEM -->
             <div class="item m-0">
-                <div>
-                    <iframe is="x-frame-bypass" src="https://www.suraenlinea.com/v2/bancolombia/soat/tarifas"></iframe>
+                <span>
+                <h2 style="font-size:3.5rem; color:#0033a0" >Tarifas SOAT 2019</h2>
+Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten presente que ya está incluida la tasa RUNT (valor cobrado por cada operación realizada sobre tu seguro), que desde el 7 de septiembre de 2018 es de $1900.    
+
+            </span>
+            <hr>
+                <div class="row">
+                    <ul class="nav nav-tabs nav-justified">
+                    <li class="active" ><a data-toggle="tab" href="#clase1"><span class="btn btn-primary" > Clase 1</span> <br> Motos</a></li>
+                    <li><a data-toggle="tab" href="#clase2"> <span class="btn btn-primary">Clase 2</span> <br>Camperos y Camionetas</a></li>
+                    <li><a data-toggle="tab" href="#clase3"><span class="btn btn-primary">Clase 3</span> <br> Carros de Cargo o Mixto</a></li>
+                    <li><a data-toggle="tab" href="#clase4"><span class="btn btn-primary">Clase 4</span><br> Carros oficiales,<br> especiales o ambulancias</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="clase1" class="tab-pane fade in active">
+                            <img src="./images/tarifas/clase1.PNG" style="margin-left:12px; !important"/>
+                        </div>
+                        <div id="clase2" class="tab-pane fade">
+                            <img src="./images/tarifas/clase2.PNG" style="margin-left: 12px;"/>
+                        </div>
+                        <div id="clase3" class="tab-pane fade">
+                            <img src="./images/tarifas/clase3.PNG" style="margin-left: 12px;"/>
+                        </div>
+                        <div id="clase4" class="tab-pane fade">
+                            <img src="./images/tarifas/clase4.PNG" style="margin-left: 12px;"/>
+                        </div>
+                    </div>
                 </div>
+                <div class="row">
+                    <ul class="nav nav-tabs nav-justified">
+                    <li  class="active" ><a data-toggle="tab" href="#clase5"><span class="btn btn-primary">Clase 5</span> <br>Carros Familiares</a></li>
+                    <li><a data-toggle="tab" href="#clase6"><span class="btn btn-primary">Clase 6</span> <br>Carros con capacidad para<br> 6 personas</a></li>
+                    <li><a data-toggle="tab" href="#clase7"><span class="btn btn-primary">Clase 7</span><br> Taxis y microbuses <br>urbanos</a></li>
+                    <li><a data-toggle="tab" href="#clase8"><span class="btn btn-primary">Clase 8</span><br> Carros de servicio pùblico<br>urbano buses</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="clase5" class="tab-pane fade in active ">
+                            <img src="./images/tarifas/clase5.PNG" style="margin-left: 12px;"/>
+                        </div>
+                        <div id="clase6" class="tab-pane fade">
+                            <img src="./images/tarifas/clase6.PNG" style="margin-left: 12px;"/>
+                        </div>
+                        <div id="clase7" class="tab-pane fade">
+                            <img src="./images/tarifas/clase7.PNG" style="margin-left: 12px;"/>
+                        </div>
+                        <div id="clase8" class="tab-pane fade">
+                            <img src="./images/tarifas/clase8.PNG" style="margin-left: 12px;"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                    <li  class="active" ><a data-toggle="tab" href="#clase9"><span class="btn btn-primary">Clase 9</span> <br>Carros de Servicio <br> intecemunicipal</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="clase9" class="tab-pane fade in active ">
+                            <img src="./images/tarifas/clase9.PNG" style="margin-left: 12px;"/>
+                        </div>
+                    </div>
+                </div>
+        
             </div>
         </div>
 

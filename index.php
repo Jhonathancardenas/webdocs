@@ -768,7 +768,6 @@
 
 </div><!-- End BG -->
 </div><!-- End wrap -->
-
 <!-- JS begin -->
 
 <!-- jQuery  -->
@@ -805,6 +804,12 @@
 <!-- SLIDER REVOLUTION INIT  -->
 <script>
 
+    $( "#float" ).mouseover(function(e) {
+        $(this).css("right","-1px");
+    });
+    $("#float").mouseleave( function(){
+        $(this).css("right","-181px");
+    });
     jQuery(document).ready(function () {
         if ((navigator.appVersion.indexOf("Win") != -1) && (ieDetect == false)) {
        

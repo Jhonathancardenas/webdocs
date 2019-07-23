@@ -1,7 +1,7 @@
 <div class="clear"></div>
 <form id="contact-form" action="" method="POST">
 <div class="page-section gray-bg">
-    <div class="container">
+    <div class="container mt-40">
         <div class="col-md-12">
             <div class="mb-40">
                 <h2 class="section-title">COTIZA <span class="bold">AQUÍ</span></h2>
