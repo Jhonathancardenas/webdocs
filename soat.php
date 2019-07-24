@@ -259,8 +259,9 @@ Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten pres
     <hr class="mt-200 mb-0">
 
     <!-- GOOGLE MAP & CONTACT FORM -->
-    <?php include("./php/formulario.php"); ?>
+    <?php include("./php/formulario_hogar.php"); ?>
 
+    <hr class="mt-200 mb-0">
     <!-- WORK PROCESS 1 -->
     <div class="page-section ">
         <div class="work-proc-1-bg">
@@ -375,23 +376,3 @@ Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten pres
 
 </html>
 <?php include("./php/footer.php"); ?>
-
-<script>
-    chrome.webRequest.onHeadersReceived.addListener(
-        function(info) {
-            var headers = info.responseHeaders;
-            for (var i=headers.length-1; i>=0; --i) {
-                var header = headers[i].name.toLowerCase();
-                if (header == 'x-frame-options' || header == 'frame-options') {
-                    headers.splice(i, 1); // Remove header
-                }
-            }
-            return {responseHeaders: headers};
-        },
-        {
-            urls: [ '*://*/*' ], // Pattern to match all http(s) pages
-            types: [ 'sub_frame' ]
-        },
-        ['blocking', 'responseHeaders']
-    );
-</script>

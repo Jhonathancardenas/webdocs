@@ -187,9 +187,9 @@
             </div>
         </div>
     </div>
-
+    <hr class="mt-200 mb-0">
     <!-- GOOGLE MAP & CONTACT FORM -->
-    <?php include('./php/formulario.php'); ?>
+    <?php include('./php/formulario_otro.php'); ?>
 
     <!-- WORK PROCESS 1 -->
     <div class="page-section ">

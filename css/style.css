@@ -2942,7 +2942,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 /* #CONTACT MENU
 =====================================================*/
 .menu-contact-info {
-	background-color:#c6c7c9;
+	background-color:#000000;
 	padding:0;
 	color: #fff;
 }
@@ -7924,7 +7924,7 @@ h2.portfolio-timeline-title {
 	  float: left;
 	  padding: 25px 17px 22px 5px; 
 	  font-size: 29px;
-	  color: #4b4e53;
+	  color: #000000;
 	  -webkit-transition: padding .4s ease 0s;
 	  -o-transition: padding .4s ease 0s;
 	  transition: padding .4s ease 0s;

@@ -727,9 +727,9 @@ function initPageSliders(){
         
         // CAROUSEL CLIENTS AUTO PLAY 
 			  $(".owl-clients-auto").owlCarousel({
-			 
+                  loop:true,
 				  //Set AutoPlay to 3 seconds
-          autoPlay : 5000,
+          autoPlay : 2000,
 				  items : 5,
 				  itemsDesktop : [1000,4], 
           itemsDesktopSmall : [900,3], 
@@ -786,7 +786,7 @@ function initPageSliders(){
 			  $(".owl-clients-nav").owlCarousel({
 			 
 				  //Set AutoPlay to 3 seconds
-          //autoPlay : 5000,
+          autoPlay : 1000,
 				  items : 5,
 				  itemsDesktop : [1000,4], 
           itemsDesktopSmall : [900,3],
@@ -796,7 +796,7 @@ function initPageSliders(){
 				  //Pagination
 					pagination : false,
 					paginationNumbers: false,
-					
+                  loop:true,
 					// Navigation
 					navigation : true,
 					navigationText : ["<span class='icon icon-arrows-left'></span>", "<i class='icon icon-arrows-right'></span>"],

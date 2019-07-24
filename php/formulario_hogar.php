@@ -61,10 +61,15 @@
                 <!-- <label>Your name *</label> -->
                 <input type="text" value="" data-msg-required="¿Cúanto valen tus muebles y enseres?" maxlength="100" class="controled" name="valor_enseres" id="valor_enseres" placeholder="Valor de tus muebles y enseres" required>
             </div>
+            <div class="form-group mb-30">
+                <!-- <label>Your name *</label> -->
+                <textarea maxlength="5000" data-msg-required="Escribenos tu mensaje" rows="3" class="controled" name="message" id="message" placeholder="Comentario" required></textarea>
+            </div>
         </div>
         <div class="col-md-12 text-center mb-30">
             <input type="submit" value="COTIZAR!" class="button medium black" data-loading-text="Cargando...">
-        </div>        
+        </div>
+
     </div>
 </div>
 
@@ -75,6 +80,5 @@
 <div class="alert alert-danger hidden animated shake" id="contactError">
     <strong>Error!</strong> Existe un error en tu mensaje.
 </div>
-
 </form>
 

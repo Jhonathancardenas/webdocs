@@ -36,6 +36,8 @@
 <!-- ONE PAGE NAV -->
 <script src="js/jquery.nav.js"></script>
 <script>
+
+
     $(document).ready(function() {
         //ONE PAGE NAV	---------------------------------------------------------------------------
         var top_offset = $('header').height() - 1;  // get height of fixed navbar

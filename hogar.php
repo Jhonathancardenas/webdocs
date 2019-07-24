@@ -161,8 +161,9 @@
             </div>
         </div>
     </div>
+    <hr class="mt-200 mb-0">
     <!-- GOOGLE MAP & CONTACT FORM -->
-	<?php include("./php/formulario.php"); ?>
+	<?php include("./php/formulario_hogar.php"); ?>
     <!-- WORK PROCESS 1 -->
     <div class="page-section ">
         <div class="work-proc-1-bg">

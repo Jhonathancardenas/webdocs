@@ -408,7 +408,7 @@
                                          data-splitout="none"
                                          data-elementdelay="0.1"
                                          data-endelementdelay="0.1"
-                                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Pyme
+                                         style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">PYME
                                     </div>
                                 </div>
                                 <!-- LAYER NR. 2 -->
@@ -747,7 +747,7 @@
 
             <h4 class="mb-30"></h4>
             <div class="row mb-30">
-                <div class="owl-clients-auto owl-carousel">
+                <div class="owl-carousel1">
                     <div class="item text-center"><img src="images/clients/1.png" alt="client"></div>
                     <div class="item text-center"><img src="images/clients/2.png" alt="client"></div>
                     <div class="item text-center"><img src="images/clients/3.png" alt="client"></div>
@@ -792,7 +792,7 @@
 
 <!-- OWL CAROUSEL -->
 <script src="js/owl.carousel.min.js"></script>
-
+<script src="js/owl-carousel/owl.carousel.js"></script>
 <!-- MAIN SCRIPT -->
 <script src="js/main.js"></script>
 
@@ -803,6 +803,9 @@
 
 <!-- SLIDER REVOLUTION INIT  -->
 <script>
+    $('.owl-carousel1').owlCarousel({
+        loop:true,
+    });
 
     $( "#float" ).mouseover(function(e) {
         $(this).css("right","-1px");
@@ -811,12 +814,14 @@
         $(this).css("right","-181px");
     });
     jQuery(document).ready(function () {
+
+
         if ((navigator.appVersion.indexOf("Win") != -1) && (ieDetect == false)) {
        
                         jQuery('#rs-fullscr').revolution(
                 {
                     dottedOverlay: "none",
-                    delay: 9000,
+                    delay: 2000,
                     startwidth: 1170,
                     startheight: 700,
                     hideThumbs: 200,
@@ -831,8 +836,8 @@
                     navigationArrows: "solo",
                     navigationStyle: "preview3",
 
-                    hideTimerBar: "on",
-
+                    hideTimerBar: "off",
+                    TimerBar:"on",
                     touchenabled: "on",
                     onHoverStop: "on",
 
@@ -894,7 +899,7 @@
             jQuery('#rs-fullscr').revolution(
                 {
                     dottedOverlay: "none",
-                    delay: 16000,
+                    delay: 2000,
                     startwidth: 1170,
                     startheight: 700,
                     hideThumbs: 200,
@@ -907,12 +912,12 @@
                     navigationArrows: "solo",
                     navigationStyle: "preview4",
 
-                    hideTimerBar: "on",
-
+                    hideTimerBar: "off",
+                    TimerBar:"on",
                     touchenabled: "on",
                     onHoverStop: "on",
 
-                    swipe_velocity: 0.1,
+                    swipe_velocity: 3,
                     swipe_min_touches: 1,
                     swipe_max_touches: 1,
                     drag_block_vertical: false,
