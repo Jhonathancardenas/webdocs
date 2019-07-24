@@ -71,24 +71,10 @@
 <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
     <strong>Exitoso!</strong> Pronto nos comunicaremos contigo!.
 </div>
-</form>
-<script>
-    $('#contact-form').submit(function(e){
-        e.preventDefault();
-        $.ajax({
-            url : 'send-contact-form.php',
-            data : $('#contact-form').serialize(),
-            type: 'POST',
-            dataType: 'json',
-            success: function(response){
-                if (response=='sucesss'){
-                    $('#contactSuccess').removeClass('hidden');
-                }else{
-                    $('#contactError').removeClass('hidden');
-                }
-            }
-        });
-    })
-</script>
 
+<div class="alert alert-danger hidden animated shake" id="contactError">
+    <strong>Error!</strong> Existe un error en tu mensaje.
+</div>
+
+</form>
 

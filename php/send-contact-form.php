@@ -16,8 +16,7 @@ $valor_enseres  = $_POST['valor_enseres'];
 */
 $dest ="cardenoso200@gmail.com";
 
-var_dump($_POST);exit();
-if(!empty($nombre) AND !empty($mensaje) AND !empty($email)){   
+if(!empty($nombre) AND !empty($nombre) AND !empty($email)){   
   $headers = "Content-Type: text/html; charset=iso-8859-1\n"; 
   $headers .= "From: ".$nombre." <".$email."> \r\n";            
   $mensaje="
@@ -36,7 +35,7 @@ if(!empty($nombre) AND !empty($mensaje) AND !empty($email)){
     </tr>
     <tr>
       <td width='25%'><strong>Telefono(s):</strong></td>
-      <td width='75%'>".$cedular."</td>
+      <td width='75%'>".$celular."</td>
     </tr>
     <tr>
       <td width='25%'><strong>Direccion:</strong></td>
@@ -65,7 +64,6 @@ if(!empty($nombre) AND !empty($mensaje) AND !empty($email)){
   </table>
   ";
   $send = @mail($dest,$asunto,$mensaje,$headers);   
-  var_dump($send);exit();
   //Send the message, check for errors
   if(!$send) {
     $arrResult = array ('response'=>'error');

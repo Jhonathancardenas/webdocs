@@ -58,6 +58,26 @@
                 //I get fired when you enter a section and I pass the list item of the section
             }
         });
+        //mail de formulario de contacto
+        $('#contact-form').submit(function(e){
+            e.preventDefault();
+            if ($(this).valid())
+            {
+                $.ajax({
+                    url : 'php/send-contact-form.php',
+                    data : $('#contact-form').serialize(),
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function(response){
+                        if (response=='sucesss'){
+                            $('#contactSuccess').removeClass('hidden');
+                        }else{
+                            $('#contactError').removeClass('hidden');
+                        }
+                    }
+                });
+            }
+        })
 
     });//END document.ready
 </script>
