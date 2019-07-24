@@ -85,10 +85,12 @@
                             $('#contactSuccess').removeClass('hidden');
                         }else{
                             $('#contactError').removeClass('hidden');
+                            $('#contactError').append(response);
                         }
                     }
                 });
             }
+            return false;
         })
 
     });//END document.ready
