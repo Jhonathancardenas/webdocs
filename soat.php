@@ -190,7 +190,7 @@
             <!-- ITEM -->
             <div class="item m-0">
                 <span>
-                <h2 style="font-size:3.5rem; color:#0033a0" >Tarifas SOAT 2019</h2>
+                <h2 style="font-size:3.5rem; color:black" >Tarifas SOAT 2019</h2>
 Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten presente que ya está incluida la tasa RUNT (valor cobrado por cada operación realizada sobre tu seguro), que desde el 7 de septiembre de 2018 es de $1900.    
 
             </span>

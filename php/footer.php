@@ -52,7 +52,6 @@
             $("#float2").removeClass("hidden");
         });
 
-  
         $('#nav-onepage').onePageNav({
             currentClass: 'current',
             changeHash: false,
