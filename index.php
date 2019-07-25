@@ -43,7 +43,7 @@
 
     <!-- ANIMATE -->
     <link rel='stylesheet' href="css/animate.min.css">
-
+    <link rel='stylesheet' href="css/owl-carousel/owl.carousel.min.css">
     <!-- IE Warning CSS -->
     <!--[if lte IE 8]>
     <link rel="stylesheet" type="text/css" href="css/ie-warning.css"><![endif]-->
@@ -732,38 +732,10 @@
     <!-- DIVIDER -->
     <hr class="mt-0 mb-0">
 
-    <!-- CLIENTS 1 & TESTIMONIALS 1 -->
-    <div class="page-section p-110-cont">
-        <div class="container">
-            <div class="row">
+	<?php include("./php/clients.php"); ?>
 
-                <div class="col-md-12">
-                    <div class="mb-50">
-                        <h2 class="section-title">Nuestras <span class="bold">Aseguradoras</span></h2>
-                    </div>
-                </div>
-
-            </div>
-
-            <h4 class="mb-30"></h4>
-            <div class="row mb-30">
-                <div class="owl-carousel1">
-                    <div class="item text-center"><img src="images/clients/1.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/2.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/3.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/4.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/5.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/6.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/7.png" alt="client"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- VIDEO ADS 1 -->
 	<?php include("./php/cotizar_auto.php"); ?>
 
-    <!-- FOOTER 2 -->
 	<?php include("./php/footer2.php"); ?>
 
 </div><!-- End BG -->
@@ -791,7 +763,7 @@
 <script src="js/jquery.appear.js"></script>
 
 <!-- OWL CAROUSEL -->
-<script src="js/owl.carousel.min.js"></script>
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
 <!-- MAIN SCRIPT -->
 <script src="js/main.js"></script>
@@ -803,15 +775,27 @@
 
 <!-- SLIDER REVOLUTION INIT  -->
 <script>
-    $('.owl-carousel1').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop:true,
+        autoplay:2000,
+        items : 5,
+        itemsDesktop : [1199, 4], //5 items between 1000px and 901px
+        itemsDesktopSmall : [768, 3], // betweem 900px and 601px
+        itemsTablet: [480, 2], //2 items between 600 and 0
+        itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+        pagination : false,
+        paginationNumbers: false,
     });
 
-    $( "#float" ).mouseover(function(e) {
-        $(this).css("right","-1px");
+    $( "#float2" ).mouseover(function(e) {
+        $(this).addClass("hidden");
+        $("#float").removeClass("hidden");
+        $("#float").css("right","-1px");
+
     });
     $("#float").mouseleave( function(){
-        $(this).css("right","-181px");
+        $(this).css("right","-205px");
+        $("#float2").removeClass("hidden");
     });
     jQuery(document).ready(function () {
 

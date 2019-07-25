@@ -689,156 +689,6 @@ LOCAL HOSTED VIDEO PLAYER
 function initPageSliders(){
     (function($){
         "use strict";
-        
-        // FULLWIDTH SLIDER
-        $(".fullwidth-slider").owlCarousel({
-            slideSpeed: 350,
-            singleItem: true,
-           // autoHeight: true,
-            navigation: true,
-            navigationText: ["<span class='icon icon-arrows-left'></span>", "<i class='icon icon-arrows-right'></span>"]
-        }); 
-
-        // FULLWIDTH SLIDER AUTOPLAY
-        $(".fullwidth-slider-auto").owlCarousel({
-            autoPlay : 4000,
-           // slideSpeed: 350,
-            singleItem: true,
-           // autoHeight: true,
-            
-            navigation: true,
-            navigationText: ["<span class='icon icon-arrows-left'></span>", "<i class='icon icon-arrows-right'></span>"],
-           // pagination : false,
-            //paginationNumbers: false,
-        });
-       
-        // CAROUSEL CLIENTS ITEMS
-				$("#owl-clients").owlCarousel({
-				  //Set AutoPlay to 3 seconds
-				  autoPlay : 6000,
-				  items : 5,
-				  itemsDesktop : [1199, 4], //5 items between 1000px and 901px
-				  itemsDesktopSmall : [768, 3], // betweem 900px and 601px
-				  itemsTablet: [480, 2], //2 items between 600 and 0
-				  itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
-					pagination : false,
-					paginationNumbers: false,
-				});
-        
-        // CAROUSEL CLIENTS AUTO PLAY 
-			  $(".owl-clients-auto").owlCarousel({
-                  loop:true,
-				  //Set AutoPlay to 3 seconds
-          autoPlay : 2000,
-				  items : 5,
-				  itemsDesktop : [1000,4], 
-          itemsDesktopSmall : [900,3], 
-          itemsTablet: [470,1], 
-          itemsMobile : false, 
-				  
-				  //Pagination
-					pagination : false,
-					paginationNumbers: false,
-			 
-			  });
-		 
-        // CAROUSEL CLIENTS NO AUTO PLAY  
-			  $(".owl-clients-no-auto").owlCarousel({
-			 
-				  //Set AutoPlay to 3 seconds
-          //autoPlay : 5000,
-				  items : 5,
-				  itemsDesktop : [1000,4],
-          itemsDesktopSmall : [900,3], 
-          itemsTablet: [470,1], 
-          itemsMobile : false, 
-				  
-				  //Pagination
-					pagination : true,
-					paginationNumbers: false,
-			 
-			  });
-		 
-        // CAROUSEL 3 ITEMS NAV NO AUTO PLAY 
-			  $(".owl-3items-nav").owlCarousel({
-			 
-				  //Set AutoPlay to 3 seconds
-          //autoPlay : 5000,
-				  items : 4,
-				  itemsDesktop : [1000,3], 
-          itemsDesktopSmall : [900,2],
-          itemsTablet: [470,1], 
-          itemsMobile : false, 
-				  
-				  //Pagination
-					pagination : false,
-					paginationNumbers: false,
-					
-					// Navigation
-					navigation : true,
-					navigationText : ["<span class='icon icon-arrows-left'></span>", "<i class='icon icon-arrows-right'></span>"],
-					rewindNav : true,
-					scrollPerPage : false,
-			 
-			  });
-
-        // CAROUSEL CLIENTS NAV NO AUTO PLAY
-			  $(".owl-clients-nav").owlCarousel({
-			 
-				  //Set AutoPlay to 3 seconds
-          autoPlay : 1000,
-				  items : 5,
-				  itemsDesktop : [1000,4], 
-          itemsDesktopSmall : [900,3],
-          itemsTablet: [470,1], 
-          itemsMobile : false, 
-				  
-				  //Pagination
-					pagination : false,
-					paginationNumbers: false,
-                  loop:true,
-					// Navigation
-					navigation : true,
-					navigationText : ["<span class='icon icon-arrows-left'></span>", "<i class='icon icon-arrows-right'></span>"],
-					rewindNav : true,
-					scrollPerPage : false,
-			 
-			  });
-		 
-        // CAROUSEL ONE ITEM INLINE, NO CONTROLS, NO AUTO PLAY, WITH PAGINATION  
-			  $(".owl-1-pag").owlCarousel({
-			 
-				  //Set AutoPlay to 3 seconds
-          //autoPlay : 5000,
-				  items : 1,
-				  itemsDesktop : [1000,1], 
-					itemsDesktopSmall : [900,1], 
-          itemsTablet: [470,1], 
-          itemsMobile : false, 
-				  
-				  //Pagination
-					pagination : true,
-					paginationNumbers: false,
-			 
-			  });
-
-        // CAROUSEL ONE ITEM INLINE, NO CONTROLS, AUTO PLAY, WITH PAGINATION
-			  $(".owl-1-pag-auto").owlCarousel({
-			 
-				  //Set AutoPlay to 3 seconds
-          autoPlay : 5000,
-				  items : 1,
-				  itemsDesktop : [1000,1], 
-					itemsDesktopSmall : [900,1], 
-          itemsTablet: [470,1], 
-          itemsMobile : false, 
-				  
-				  //Pagination
-					pagination : true,
-					paginationNumbers: false,
-			 
-			  });
- 
         function center(number){
             var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
             var num = number;
@@ -868,8 +718,6 @@ function initPageSliders(){
                         sync2.trigger("owl.goTo", num - 1)
                     }
         }
-          
-        var owl = $(".fullwidth-slideshow").data("owlCarousel");
         
         $(document.documentElement).keyup(function(event){
             // handle cursor keys
@@ -881,12 +729,6 @@ function initPageSliders(){
                     owl.next();
                 }
         });
-        
-        if ($(".owl-carousel").lenth) {
-            var owl = $(".owl-carousel").data('owlCarousel');
-            owl.reinit();
-        }
-
     })(jQuery);
 };
 

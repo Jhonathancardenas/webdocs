@@ -243,33 +243,7 @@
     <!-- DIVIDER -->
     <hr class="mt-0 mb-0">
     <!-- CLIENTS 1 & TESTIMONIALS 1 -->
-    <div class="page-section p-110-cont">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12">
-                    <div class="mb-50">
-                        <h2 class="section-title">Nuestras <span class="bold">Aseguradoras</span></h2>
-                    </div>
-                </div>
-
-            </div>
-            <h4 class="mb-30"></h4>
-            <div class="row mb-30">
-                <div class="owl-clients-auto owl-carousel">
-                    <div class="item text-center"><img src="images/clients/1.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/2.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/3.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/4.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/5.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/6.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/7.png" alt="client"></div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
+	<?php include("./php/clients.php"); ?>
     <hr class="mt-0 mb-0">
     <!-- VIDEO ADS 1 -->
 	<?php include("./php/cotizar_auto.php"); ?>
