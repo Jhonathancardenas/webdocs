@@ -41,12 +41,18 @@
     $(document).ready(function() {
         //ONE PAGE NAV	---------------------------------------------------------------------------
         var top_offset = $('header').height() - 1;  // get height of fixed navbar
-        $( "#float" ).mouseover(function(e) {
-        $(this).css("right","-1px");
+        $( "#float2" ).mouseover(function(e) {
+            $(this).addClass("hidden");
+            $("#float").removeClass("hidden");
+            $("#float").css("right","-1px");
+ 
         });
         $("#float").mouseleave( function(){
-        $(this).css("right","-181px");
+            $(this).css("right","-205px");
+            $("#float2").removeClass("hidden");
         });
+
+  
         $('#nav-onepage').onePageNav({
             currentClass: 'current',
             changeHash: false,
