@@ -180,13 +180,11 @@
     </div>
     <!-- DIVIDER -->
     <hr class="mt-900 mb-0">
-    <!-- DIVIDER -->
-    <hr class="mt-200 mb-0">
 
     <!-- CAROUSEL -->
     <div class="container mb-80">
 
-        <div class="fullwidth-slider owl-carousel owl-arrows-bg owl-dark-bg owl-pag-2">
+        <div class="fullwidth-slider">
             <!-- ITEM -->
             <div class="item m-0">
                 <span>
