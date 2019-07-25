@@ -10,7 +10,7 @@
 			<div class="col-md-6">
 				<div class="form-group mb-30">
 					<!-- <label>Your name *</label> -->
-					<input type="text" value="" data-msg-required="Escribe tu Nombre y tu Apellido" maxlength="100" class="controled" name="name" id="name" placeholder="Nombre y Apellido" required>
+					<input type="text" value="" data-msg-required="Escribe tu Nombre y tu Apellido" maxlength="100" class="controled" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
 				</div>
 
 				<div class="form-group mb-30">
@@ -29,7 +29,7 @@
 				</div>
 				<div class="form-group mb-20">
 					<!-- <label>Your name *</label> -->
-					<textarea maxlength="5000" data-msg-required="Escribenos tu mensaje" rows="3" class="controled" name="message" id="message" placeholder="Comentario" required></textarea>
+					<textarea maxlength="5000" data-msg-required="Escribenos tu mensaje" rows="3" class="controled" name="mensaje" id="mensaje" placeholder="Comentario" required></textarea>
 				</div>
 			</div>
 			<div class="col-md-12 text-center mb-30">
