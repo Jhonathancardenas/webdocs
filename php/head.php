@@ -32,7 +32,8 @@
 
 <!-- ANIMATE -->
 <link rel='stylesheet' href="css/animate.min.css">
-
+<link rel='stylesheet' href="css/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
 <!-- IE Warning CSS -->
 <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
 <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->

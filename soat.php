@@ -180,18 +180,15 @@
     </div>
     <!-- DIVIDER -->
     <hr class="mt-900 mb-0">
-    <!-- DIVIDER -->
-    <hr class="mt-200 mb-0">
 
     <!-- CAROUSEL -->
     <div class="container mb-80">
 
-        <div class="fullwidth-slider owl-carousel owl-arrows-bg owl-dark-bg owl-pag-2">
+        <div class="fullwidth-slider">
             <!-- ITEM -->
             <div class="item m-0">
                 <span>
                 <h2 style="font-size:3.5rem; color:black" >Tarifas SOAT 2019</h2>
-Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten presente que ya está incluida la tasa RUNT (valor cobrado por cada operación realizada sobre tu seguro), que desde el 7 de septiembre de 2018 es de $1900.    
 
             </span>
             <hr>
@@ -259,7 +256,7 @@ Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten pres
     <hr class="mt-200 mb-0">
 
     <!-- GOOGLE MAP & CONTACT FORM -->
-    <?php include("./php/formulario_hogar.php"); ?>
+    <?php // include("./php/formulario_hogar.php"); ?>
 
     <hr class="mt-200 mb-0">
     <!-- WORK PROCESS 1 -->
@@ -341,33 +338,9 @@ Consulta el valor de tu SOAT según la clase de vehículo que tengas, y ten pres
     <!-- DIVIDER -->
     <hr class="mt-0 mb-0">
     <!-- CLIENTS 1 & TESTIMONIALS 1 -->
-    <div class="page-section p-110-cont">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12">
-                    <div class="mb-50">
-                        <h2 class="section-title">Nuestras <span class="bold">Aseguradoras</span></h2>
-                    </div>
-                </div>
-
-            </div>
-            <h4 class="mb-30"></h4>
-            <div class="row mb-30">
-                <div class="owl-clients-auto owl-carousel">
-                    <div class="item text-center"><img src="images/clients/1.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/2.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/3.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/4.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/5.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/6.png" alt="client"></div>
-                    <div class="item text-center"><img src="images/clients/7.png" alt="client"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<?php include("./php/clients.php"); ?>
     <!-- VIDEO ADS 1 -->
-	<?php include("./php/cotizar_auto.php"); ?>
+	<?php  include("./php/cotizar_auto.php"); ?>
     <!-- FOOTER 2 -->
     <!-- FOOTER 2 -->
 	<?php include("./php/footer2.php"); ?>

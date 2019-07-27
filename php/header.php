@@ -6,7 +6,7 @@
                 <!-- LOGO -->
                 <div class="logo-container-2">
                     <div class="logo-2">
-                        <a href="index.html" class="clearfix">
+                        <a href="index.php" class="clearfix">
                             <img src="images/logo.png" class="logo-img" alt="Logo">
                         </a>
                     </div>
@@ -32,7 +32,7 @@
 							<ul class="nav navbar-nav">
 								<!-- MENU ITEM -->
 								<li>
-									<a href="index.php"><div class="main-menu-title">HOME</div></a>
+									<a href="index.php"><div class="main-menu-title">INICIO</div></a>
 								</li>
 								<!-- MENU ITEM -->
 								<li class="parent">

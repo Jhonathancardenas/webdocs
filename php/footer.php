@@ -21,6 +21,8 @@
 <script src="js/jquery.appear.js"></script>
 
 <!-- GOOLE MAP -->
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
 
 <script src="js/gmap3.min.js"></script>
 
@@ -30,8 +32,6 @@
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/contact-form-validation.min.js"></script>
 
-<!-- OWL CAROUSEL -->
-<script src="js/owl.carousel.min.js"></script>
 
 <!-- ONE PAGE NAV -->
 <script src="js/jquery.nav.js"></script>
@@ -52,6 +52,18 @@
             $("#float2").removeClass("hidden");
         });
 
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            autoplay:3000,
+            items : 5,
+            itemsDesktop : [1199, 4], //5 items between 1000px and 901px
+            itemsDesktopSmall : [768, 3], // betweem 900px and 601px
+            itemsTablet: [480, 2], //2 items between 600 and 0
+            itemsMobile : true, // itemsMobile disabled - inherit from itemsTablet option
+            pagination : false,
+            paginationNumbers: false,
+        });
+  
         $('#nav-onepage').onePageNav({
             currentClass: 'current',
             changeHash: false,
