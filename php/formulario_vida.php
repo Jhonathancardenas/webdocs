@@ -19,7 +19,7 @@
 				</div>
 				<div class="form-group mb-30">
 					<!-- <label>Your name *</label> -->
-					<input type="text" value="" data-msg-required="Tu edad es tenida en cuenta para las tarifas de la aseguradora" maxlength="100" class="controled" name="anio" id="anio" placeholder="Fecha de Nacimiento (DD/MM/AA)" required>
+					<input type="date" value="" data-msg-required="Tu edad es tenida en cuenta para las tarifas de la aseguradora" maxlength="100" class="controled" name="anio" id="anio" placeholder="Fecha de Nacimiento (DD/MM/AA)" required>
 				</div>
 				<div class="form-group mb-30">
 					<!-- <label>Your email address *</label> -->

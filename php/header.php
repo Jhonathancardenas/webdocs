@@ -67,21 +67,25 @@
 															<div class="loc-icon-container">
 																<span aria-hidden="true" class="icon_pin_alt main-menu-contact-icon"></span>
 															</div>
-															<div class="menu-contact-text-container">AV 19 N 125- 65 OFICINA 301 EDIFICIO AV 19</div>
+															<div class="menu-contact-text-container">Av 19 N 125- 65 Oficina 301 Edificio Av 19</div>
 														</li>
 														<li class="contact-phone clearfix">
 															<div class="loc-icon-container">
 																<span aria-hidden="true" class="icon_phone main-menu-contact-icon"></span>
 															</div>
+												
 															<div class="menu-contact-text-container" >
-																<a class="a-mail" href="https://api.whatsapp.com/send?phone=573138311365&text=Hola! quisiera hacer una cotización">313 831 13 65</div>
+																<p>Télefono: (1)703 62 55</p>
+																<a class="a-mail" href="https://api.whatsapp.com/send?phone=573138311365&text=Hola! quisiera hacer una cotización">Celular: 313 831 1365</a>
+															
+															</div>
 														</li>
 														<li class="contact-mail clearfix" >
 															<div class="loc-icon-container">
 																<span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
 															</div>
 															<div class="menu-contact-text-container">
-																<a class="a-mail" href="mailto:rafael.perez@ageso.com">RAFAEL.PEREZ@AGESO.COM.CO</a>
+																<a class="a-mail" href="mailto:rafael.perez@ageso.com">rafael.perez@ageso.com.co</a>
 															</div>
 														</li>
 													</ul>

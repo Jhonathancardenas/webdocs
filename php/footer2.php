@@ -11,7 +11,7 @@
 						</div>
 						<div class="cis-text">
 							<h2><span class="bold">DIRECCIÓN</span></h2>
-							<h3>AV 19 N 125- 65 OFICINA 301 EDIFICIO AV 19</h3>
+							<h3>Av 19 N 125- 65 Oficina 301 Edificio Av 19</h3>
 						</div>
 					</div>
 				</div>
@@ -22,7 +22,7 @@
 						</div>
 						<div class="cis-text">
 							<h2><span class="bold">EMAIL</span></h2>
-							<h3><a href="mailto:rafael.perez@ageso.com">RAFAEL.PEREZ@AGESO.COM.CO</a></h3>
+							<h3><a href="mailto:rafael.perez@ageso.com"><strong>Email:</strong> rafael.perez@ageso.com.co</a></h3>
 						</div>
 					</div>
 				</div>
@@ -33,7 +33,7 @@
 						</div>
 						<div class="cis-text">
 							<h2><span class="bold">LLÁMANOS</span></h2>
-							<h3>313 831 13 65, 031 703 62 55</h3>
+							<h3 ><strong>Télefono:</strong> (1)703 62 55 <br class="bold"><strong>Celular:</strong> 313 831 1365</h3>
 						</div>
 					</div>
 				</div>
