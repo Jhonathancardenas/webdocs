@@ -35,33 +35,43 @@
             <div class="form-group mb-30">
                 <!-- <label>Your name *</label> -->
                 <input type="text" value="" data-msg-required="Edificio, Casa, Finca" maxlength="100" class="controled" name="edificio" id="edificio" placeholder="Edificio, Casa, Finca" required>
-            </div>            
-        </div>
-        <div class="col-md-6">
+            </div>   
             <div class="form-group mb-30">
                 <!-- <label>Your name *</label> -->
                 <input type="text" value="" data-msg-required="El año aproximado de construcción de tu inmueble es tenido en cuenta por la aseguradora para la tarifación del seguro" maxlength="100" class="controled" name="anio" id="anio" placeholder="Año de construcción " required>
             </div>
-
+         
+        </div>
+        <div class="col-md-6">
+           
             <div class="form-group mb-30">
-                <!-- <label>Your name *</label> -->
                 <input type="text" value="" data-msg-required="Número de pisos del edificio" maxlength="100" class="controled" name="pisos" id="pisos" placeholder="Número de pisos del edificio" required>
+               
             </div>
             <div class="form-group mb-30">
                 <!-- <label>Your name *</label> -->
-                <input type="text" value="" data-msg-required="¿Cúanto vale tu apartamento?" maxlength="100" class="controled" name="valor_inmueble" id="valor_inmueble" placeholder="Valor del inmueble" required>
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" lang="en" value=""  data-msg-required="¿Cúanto vale tu apartamento?" maxlength="100" class="controled number_format" name="valor_inmueble" id="valor_inmueble" placeholder="Valor del inmueble" required>
+                </div> 
             </div>
 
             <div class="form-group mb-30">
                 <!-- <label>Your name *</label> -->
-                <input type="text" value="" data-msg-required="¿Cúanto valen tus equipos eléctricos y electrónicos?" maxlength="100" class="controled" name="valor_equipos" id="valor_equipos" placeholder="Valor de tus equipos eléctricos y electrónicos" required>
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" value="" data-msg-required="¿Cúanto valen tus equipos eléctricos y electrónicos?" maxlength="100" class="controled number_format" name="valor_equipos" id="valor_equipos" placeholder="Valor de tus equipos eléctricos y electrónicos" required>
+                </div> 
             </div>
 
             <div class="form-group mb-30">
                 <!-- <label>Your name *</label> -->
-                <input type="text" value="" data-msg-required="¿Cúanto valen tus muebles y enseres?" maxlength="100" class="controled" name="valor_enseres" id="valor_enseres" placeholder="Valor de tus muebles y enseres" required>
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                <input type="text" value="" data-msg-required="¿Cúanto valen tus muebles y enseres?" maxlength="100" class="controled number_format" name="valor_enseres" id="valor_enseres" placeholder="Valor de tus muebles y enseres" required>
+                </div> 
             </div>
-            <div class="form-group mb-30">
+            <div class="form-group mb-10">
                 <!-- <label>Your name *</label> -->
                 <textarea maxlength="5000" data-msg-required="Escribenos tu mensaje" rows="3" class="controled" name="mensaje" id="mensaje" placeholder="Comentario" required></textarea>
             </div>

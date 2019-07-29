@@ -194,13 +194,13 @@
             <hr>
                 <div class="row">
                     <ul class="nav nav-tabs nav-justified">
-                    <li class="active" ><a data-toggle="tab" href="#clase1"><span class="btn btn-primary" > Clase 1</span> <br> Motos</a></li>
+                    <li class="" ><a data-toggle="tab" href="#clase1"><span class="btn btn-primary" > Clase 1</span> <br> Motos</a></li>
                     <li><a data-toggle="tab" href="#clase2"> <span class="btn btn-primary">Clase 2</span> <br>Camperos y Camionetas</a></li>
                     <li><a data-toggle="tab" href="#clase3"><span class="btn btn-primary">Clase 3</span> <br> Carros de Cargo o Mixto</a></li>
                     <li><a data-toggle="tab" href="#clase4"><span class="btn btn-primary">Clase 4</span><br> Carros oficiales,<br> especiales o ambulancias</a></li>
                     </ul>
                     <div class="tab-content">
-                        <div id="clase1" class="tab-pane fade in active">
+                        <div id="clase1" class="tab-pane fade in">
                             <img src="./images/tarifas/clase1.PNG" style="margin-left:12px; !important"/>
                         </div>
                         <div id="clase2" class="tab-pane fade">
@@ -216,13 +216,13 @@
                 </div>
                 <div class="row">
                     <ul class="nav nav-tabs nav-justified">
-                    <li  class="active" ><a data-toggle="tab" href="#clase5"><span class="btn btn-primary">Clase 5</span> <br>Carros Familiares</a></li>
+                    <li  class="" ><a data-toggle="tab" href="#clase5"><span class="btn btn-primary">Clase 5</span> <br>Carros Familiares</a></li>
                     <li><a data-toggle="tab" href="#clase6"><span class="btn btn-primary">Clase 6</span> <br>Carros con capacidad para<br> 6 personas</a></li>
                     <li><a data-toggle="tab" href="#clase7"><span class="btn btn-primary">Clase 7</span><br> Taxis y microbuses <br>urbanos</a></li>
                     <li><a data-toggle="tab" href="#clase8"><span class="btn btn-primary">Clase 8</span><br> Carros de servicio pùblico<br>urbano buses</a></li>
                     </ul>
                     <div class="tab-content">
-                        <div id="clase5" class="tab-pane fade in active ">
+                        <div id="clase5" class="tab-pane fade in">
                             <img src="./images/tarifas/clase5.PNG" style="margin-left: 12px;"/>
                         </div>
                         <div id="clase6" class="tab-pane fade">
@@ -237,11 +237,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <ul class="nav nav-tabs">
-                    <li  class="active" ><a data-toggle="tab" href="#clase9"><span class="btn btn-primary">Clase 9</span> <br>Carros de Servicio <br> intecemunicipal</a></li>
+                    <ul class="nav nav-tabs nav-justified">
+                    <li  class="" ><a data-toggle="tab" href="#clase9"><span class="btn btn-primary">Clase 9</span> <br>Carros de Servicio <br> intecemunicipal</a></li>
                     </ul>
                     <div class="tab-content">
-                        <div id="clase9" class="tab-pane fade in active ">
+                        <div id="clase9" class="tab-pane fade in">
                             <img src="./images/tarifas/clase9.PNG" style="margin-left: 12px;"/>
                         </div>
                     </div>

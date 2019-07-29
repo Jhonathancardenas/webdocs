@@ -44,29 +44,44 @@
             <div class="col-md-6">
                 <div class="form-group mb-30">
                     <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="¿Cúanto vale tus equipos eléctricos y electrónicos?" maxlength="100" class="controled" name="valor_equipos_electricos" id="valor_equipos_electricos" placeholder="Valor de tus equipos eléctricos y electrónicos" required>
-                </div>
-                <div class="form-group mb-30">
-                    <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="Número de pisos de la construcción" maxlength="100" class="controled" name="numero_construccion" id="numero_construccion" placeholder="Número de pisos de la construcción" required>
+                    <input type="text" value="" data-msg-required="Número de pisos de la construcción" maxlength="100" class="controled number_format" name="numero_construccion" id="numero_construccion" placeholder="Número de pisos de la construcción" required>
 
                 </div>
                 <div class="form-group mb-30">
                     <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="¿Cúanto vale del inmueble?" maxlength="100" class="controled" name="valor_inmueble" id="valor_inmueble" placeholder="Valor del inmueble" required>
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" value="" data-msg-required="¿Cúanto vale casa/bodega/edificio??" maxlength="100" class="controled number_format" name="valor_inmueble" id="valor_inmueble" placeholder="Valor de tu casa/bodega/edificio" required>
+                    </div>
                 </div>
                 <div class="form-group mb-30">
                     <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="¿Cúanto valen tus maquinarias y equipos?" maxlength="100" class="controled" name="maquinarias_equipos" id="maquinarias_equipos" placeholder="Valor de tus maquinarias y equipos" required>
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" value="" data-msg-required="¿Cúanto vale tus equipos eléctricos y electrónicos?" maxlength="100" class="controled number_format" name="valor_equipos_electricos" id="valor_equipos_electricos" placeholder="Valor de tus equipos eléctricos y electrónicos" required>
+                    </div>
+                </div>
+                <div class="form-group mb-30">
+                    <!-- <label>Your name *</label> -->
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" value="" data-msg-required="¿Cúanto valen tus maquinarias y equipos?" maxlength="100" class="controled number_format" name="maquinarias_equipos" id="maquinarias_equipos" placeholder="Valor de tus maquinarias y equipos" required>
+                    </div>
                 </div>
 
                 <div class="form-group mb-30">
                     <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="¿Cúanto valen tus muebles y enseres?" maxlength="100" class="controled" name="muebles_enseres" id="muebles_enseres" placeholder="Valor de tus muebles y enseres" required>
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" value="" data-msg-required="¿Cúanto valen tus muebles y enseres?" maxlength="100" class="controled number_format" name="muebles_enseres" id="muebles_enseres" placeholder="Valor de tus muebles y enseres" required>
+                    </div> 
                 </div>
                 <div class="form-group mb-30">
                     <!-- <label>Your name *</label> -->
-                    <input type="text" value="" data-msg-required="¿Cúanto vale tu mercancía?" maxlength="100" class="controled" name="valor_mercancia" id="valor_mercancia" placeholder="Valor de tus mercancia" required>
+                    <div class="input-group">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" value="" data-msg-required="¿Cúanto vale tu mercancía?" maxlength="100" class="controled number_format" name="valor_mercancia" id="valor_mercancia" placeholder="Valor de tus mercancia" required>
+                    </div>
                 </div>
                 <div class="form-group mb-30">
                     <!-- <label>Your name *</label> -->

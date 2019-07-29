@@ -39,6 +39,19 @@
 
 
     $(document).ready(function() {
+        $(".number_format").on({
+            "focus": function(event) {
+            $(event.target).select();
+            },
+            "keyup": function(event) {
+            $(event.target).val(function(index, value) {
+            return value.replace(/\D/g, "")
+            .replace(/([0-9])([0-9]{3})$/, '$1.$2')
+            .replace(/\B(?=(\d{3})+(?!\d)\.?)/g, ".");
+            });
+            }
+        });
+
         //ONE PAGE NAV	---------------------------------------------------------------------------
         var top_offset = $('header').height() - 1;  // get height of fixed navbar
         $( "#float2" ).mouseover(function(e) {

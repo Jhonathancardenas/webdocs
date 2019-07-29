@@ -43,10 +43,10 @@
 </style>    
 
 <div id="float"  class="hidden">	
-	<div class="col-md-24" style="margin-top: 5px; min-width='35%'">
+	<div class="col-md-24" style="margin-top: 20px; min-width='35%'">
 		<span  style="margin-top: 25px;">	
 			<a  target="_blank" href="https://api.whatsapp.com/send?phone=573138311365&text=Hola! quisiera hacer una cotización">
-				<img src="./images/phone.png"/>
+				<img src="./images/phone.png" width="20%"/>
 				<br>
 				
 				<i class="white bold">313 831 1365</i><br>
@@ -55,10 +55,10 @@
 			</a>
 		</span>
 	</div>
-	<div class="col-md-12" style="margin-top: 3px; min-width='35%'">		
+	<div class="col-md-12" style="margin-top: 20px; min-width='35%'">		
 		<span>									
 			<a  target="_blank" href="mailto:rafael.perez@ageso.com">
-				<img src="./images/mail.png" />
+				<img src="./images/mail.png" width="20%" />
 				<small class="white bold">rafael.perez@ageso.com.co</small>
 			</a>
 		</span>

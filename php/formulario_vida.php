@@ -47,7 +47,10 @@
 				</div>
 				<div class="form-group mb-30">
 					<!-- <label>Your name *</label> -->
-					<input type="text" value="" data-msg-required="Valor desde $20'000.000" maxlength="100" class="controled" name="valor_asegurado" id="valor_asegurado" placeholder="Valor Asegurado" required>
+					<div class="input-group">
+                    	<span class="input-group-addon">$</span>
+						<input type="text" value="" data-msg-required="Valor desde $20'000.000" maxlength="100" class="controled number_format" name="valor_asegurado" id="valor_asegurado" placeholder="Valor Asegurado" required>
+					</div>
 				</div>
 
 				<div class="form-group mb-30">
